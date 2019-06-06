@@ -65,11 +65,9 @@ Best practices:
 - Be bery cautious when getting data from more than 1 microservice
 - "Cloud ready apps" = perfect microservice structure
 
-![deployment models]
-(deployment_models.jpg)
+![deployment models](deployment_models.jpg)
 
-![challenges]
-(challenges.jpg)
+![challenges](challenges.jpg)
 
 ### When testing makes no sense
 
