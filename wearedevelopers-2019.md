@@ -5,15 +5,19 @@
 ## Thursday
 
 ### Congress opening talk
+
 what a fucking opening, now i'm definitely awake
-participate: slido.com #wad2019
+
+to participate: slido.com #wad2019
 
 ### Where Machine Intelligence Ends and Human Creativity Begins
+
 TODO: look up if xkcd re: AI in board games is still accurate
 
 > "Technology is the reason why so many of us are still alive to complain about technology"
 
 Kasparov is a good person
+
 to paraphrase: "Even if we lose jobs to AI, we still improve a lot of lives, and that's what matters"
 
 1. Intelligent tech advances from weak toys to useful tools and eventually to disruptive substitutes.
@@ -23,22 +27,27 @@ to paraphrase: "Even if we lose jobs to AI, we still improve a lot of lives, and
 5. AI is augmented. We aren't being replaced. We're being promoted.
 
 ### Life in The Fast Lane - Don't Get Breached, Embeded Security Into Your Developer Journey
+
 1. Only give the necessary permissions
 2. Encourage diversity, aka. code review by multiple people
 3. Scan for vulnerabilities early! Reduce attack surface & prioritize critical fixes
 
 ### Monitor your data like if it was your code
+
 from [SodaData.io](https://sodatata.io)
 
 > "Software crashed, but Data is just wrong"
 
-seems like they're working on an open-source data monitoring tool
-it doesn't seem to be ready yet
-supports self-learning of what's regular and what's not, and reports on that basis
+seems like they're working on an open-source data monitoring tool, but it doesn't seem to be ready yet
+
+it's supposed to support self-learning of what's regular and what's not, and reporting on that basis
+
 [sodadata on github](https://github.com/sodadata/)
 
 ### Brave new world of microservices - patterns, ideas, dos and don'ts
+
 SOA != Microservices
+
 LamaPoll is definitely a monolith
 
 Microservices are an optional structure if a heterogenous structure isn't available to you
@@ -61,17 +70,20 @@ Best practices:
 [challenges](challenges.jpg)
 
 ### When testing makes no sense
+
 basically, think about what you test, and don't be stupid
 
 - keep tests simple
 - keep tests focused
 
 ### Testing your tests' quality - Introduction to Mutation Testing
+
 [@felix_codes](https://twitter.com/felix_codes) is 17, and a full-stack dev
 
 If code coverage isn't a good measure of test quality, what is?
 
 Mutation testing isn't just testing your code, it's mutation your code to make existing tests fail.
+
 The more tests fail, the better, since mutated tests should fail.
 
 Tyepes of mutants:
@@ -84,13 +96,15 @@ Cons of mutation testing:
 - equivalent mutants (semantic change, but result stays the same)
 
 Tools for mutation testing:
-[pitest for java](pitest.org)
-stryker for js
-inferno for php
+- [pitest for java](pitest.org)
+- stryker for js
+- inferno for php
 
 ### Bridging the integration gap: How to enable service-rich applications faster and with less code
+
 The gist of the talk seems to be:
 Use already existing open source projects and stitch them together, that way you don't have to write them yourself.
+
 The entire talk felt like an ad for:
 1. you need an integration platform
 2. our integration platform is great
@@ -98,6 +112,7 @@ The entire talk felt like an ad for:
 ### Non-talk notes
 - Sentry seems very interesting
     - Platform for error reporting, consolidation, and management
+    - Self-hosting is possible
 
 ---
 
