@@ -65,9 +65,11 @@ Best practices:
 - Be bery cautious when getting data from more than 1 microservice
 - "Cloud ready apps" = perfect microservice structure
 
-[deployment models](deployment_models.jpg)
+![deployment models]
+(deployment_models.jpg)
 
-[challenges](challenges.jpg)
+![challenges]
+(challenges.jpg)
 
 ### When testing makes no sense
 
@@ -93,7 +95,7 @@ Tyepes of mutants:
 
 Cons of mutation testing:
 - giant amount of mutants increases time the tests take
-- equivalent mutants (semantic change, but result stays the same)
+- equivalent mutants (semantic change, but result stays the same) increase test time without being valuable
 
 Tools for mutation testing:
 - [pitest for java](pitest.org)
