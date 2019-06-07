@@ -114,15 +114,52 @@ The entire talk felt like an ad for:
     - Platform for error reporting, consolidation, and management
     - Self-hosting is possible
 
+How to presentations
+1. Start with a quote
+2. Think of a powerful statement to capture people
+3. Ask a question
+4. Give an anecdote/story
+
+Two babies born on the same day, same mom, same dad, not twins. How?
+
+They're triplets.
+
 ---
 
 ## Friday
 
 ### Building ethical software
 
+Coding isn't ethics-neutral
+
+> The future is here, but it's distributed unevenly.
+
+![the future is unevenly distributed](futute.jpg)
+
+> We can celebrate to good outcomes, but we have a duty to take responsibility for the negative outcomes.
+
+The algorhythms and models you create have a moral weight, and at some point people will be affected by it.
+
+Paper to look at: "Fanning the Flames of Hate: Social Media and Hate Crime"
+
+> Just because we CAN build something, doesn't mean we SHOULD
+
 ### Company Culture & Diversity
 
+Great talk, but mostly just personal anecdotes speaking to the people.
+Since i'm deep in the topic already, it's not exactly relevant.
+
 ### 25 Years of PHP
+
+Seems to be the same talk he held before.
+
+TODO: Check out weak references & FFI in PHP 7.4
+
+Rasmus confirms that it's gif, not jif
+
+> No innovation matters more than that which saves lives.
+
+![dreamers, hackers, coders](dreamershackerscoders.jpg)
 
 ### Bulletproof Shoes
 
