@@ -134,7 +134,7 @@ Coding isn't ethics-neutral
 
 > The future is here, but it's distributed unevenly.
 
-![the future is unevenly distributed](futute.jpg)
+![the future is unevenly distributed](future.jpg)
 
 > We can celebrate to good outcomes, but we have a duty to take responsibility for the negative outcomes.
 
