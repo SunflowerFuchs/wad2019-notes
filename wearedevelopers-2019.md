@@ -109,21 +109,6 @@ The entire talk felt like an ad for:
 1. you need an integration platform
 2. our integration platform is great
 
-### Non-talk notes
-- Sentry seems very interesting
-    - Platform for error reporting, consolidation, and management
-    - Self-hosting is possible
-
-How to presentations
-1. Start with a quote
-2. Think of a powerful statement to capture people
-3. Ask a question
-4. Give an anecdote/story
-
-Two babies born on the same day, same mom, same dad, not twins. How?
-
-They're triplets.
-
 ---
 
 ## Friday
@@ -163,14 +148,97 @@ Rasmus confirms that it's gif, not jif
 
 ### Bulletproof Shoes
 
+Slack tokens:
+- xoxp-* = User token
+- xoxb-* = Bot token
+
+General rules:
+- Clear communication -> It needs to be clear WHY a token has been revoked
+- Don't wait till someone reports a token, take precautions instead
+
+about 80% of the tokens they found were valid
+
 ### Cyber Hygiene vs. Data Breaches: In a Layman's term
+
+Tools to check for publicly available data:
+- Shodan
+- Zoomeye
+- BinaryEdge
+- Censys
+- RiskIQ Analysis
+
+We already know HIBP (thanks troy)
+
+Important rules:
+1. Know your database documentation, especially best practices re: security
+2. Add Firewalls / Access Control Lists
+3. Throw away logs when not needed anymore
+4. Don't use MD5 hashes (sha-1 is next to be broken, btw)
 
 ### Improve the quality of your PHPUnit tests with Infection
 
+Key points:
+- Write tests
+- Cover mutants
+- Repear
+
 ### data, design, code
+
+The previous talk (building a data-oriented future) ended 20 minutes later than planned,
+so there wasn't really time for us to visit this one.
+
+BUT, the intro made d3.js look quite interesting.
+
+Maik also mentioned processing.js, which supposedly is quite similar.
 
 ### Software Quality without Testing
 
+![Quality without testing](quality.jpg)
+
 ### Making less of the web with feature policy
 
+[@triblondon](https://twitter.com/triblondon)
+
+[also on github](https://github.com/triblondon)
+
+> How can we fix the web without completely replacing it?
+
+Goals for the future of the web
+- Allow good practices to be declared, recognized, and rewarded
+- Protect openness and decentralisation
+- Do it collaboratively
+- Don't break anything
+
+Feature policy is
+- a HTTP header
+- developer-controlled
+- a statement of conformance
+- an open standard
+
+[featurepolicy.info](https://featurepolicy.info)
+
+To discover feature policy violations, attach a ReportingObserver via js, or attach a Report-To HTTP header.
+
+You can also set a feature policy that says not to enforce feature policies, but just report them.
+
+There's a [blog post](https://fastly.com/blog/feature-policy-webs-missing-guardrails) containing pretty much all the info from the slides
+
 ### 1+1>2 : impacts of pair programming
+
+Didn't really say anything that wasn't obvious before
+
+## Non-talk notes
+- Sentry seems very interesting
+    - Platform for error reporting, consolidation, and management
+    - Open source
+    - Self-hosting is possible
+
+How to presentations
+1. Start with a quote
+2. Think of a powerful statement to capture people
+3. Ask a question
+4. Give an anecdote/story
+
+Two babies born on the same day, same mom, same dad, not twins. How?
+
+They're triplets.
